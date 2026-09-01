@@ -1,0 +1,14 @@
+C:\Users\HP\TmsCore1\bin\Debug\net10.0\TmsCore1.exe
+C:\Users\HP\TmsCore1\bin\Debug\net10.0\TmsCore1.deps.json
+C:\Users\HP\TmsCore1\bin\Debug\net10.0\TmsCore1.runtimeconfig.json
+C:\Users\HP\TmsCore1\bin\Debug\net10.0\TmsCore1.dll
+C:\Users\HP\TmsCore1\bin\Debug\net10.0\TmsCore1.pdb
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\TmsCore1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\TmsCore1.AssemblyInfoInputs.cache
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\TmsCore1.AssemblyInfo.cs
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\TmsCore1.csproj.CoreCompileInputs.cache
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\TmsCore1.dll
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\refint\TmsCore1.dll
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\TmsCore1.pdb
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\TmsCore1.genruntimeconfig.cache
+C:\Users\HP\TmsCore1\obj\Debug\net10.0\ref\TmsCore1.dll
