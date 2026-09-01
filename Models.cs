@@ -112,3 +112,50 @@ public class LabAssignment : IGradable
         return (FunctionalityScore * 0.7m) + (CodeQualityScore * 0.3m);
     }
 }
+
+public class TmsDatabaseException : Exception
+{
+    public string Operation { get; }
+
+    public TmsDatabaseException(string operation, string message)
+        : base(message)
+    {
+        Operation = operation;
+    }
+
+    public TmsDatabaseException(string operation, string message, Exception innerException)
+        : base(message, innerException)
+    {
+        Operation = operation;
+    }
+}
+
+public class CapacityReachedException : InvalidOperationException
+{
+    public string CourseCode { get; }
+
+    public CapacityReachedException(string courseCode)
+        : base($"Course {courseCode} has reached maximum capacity.")
+    {
+        CourseCode = courseCode;
+    }
+
+    public CapacityReachedException(string courseCode, Exception innerException)
+        : base($"Course {courseCode} has reached maximum capacity.", innerException)
+    {
+        CourseCode = courseCode;
+    }
+}
+
+public delegate void StudentNotificationHandler(Student student);
+
+public class EnrollmentNotifier
+{
+    public event StudentNotificationHandler? Listener;
+
+    public void FinalizeEnrollment(Student student)
+    {
+        Console.WriteLine("Persisting to database...");
+        Listener?.Invoke(student);
+    }
+}
